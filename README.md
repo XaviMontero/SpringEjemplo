@@ -25,7 +25,30 @@ Para acceder, debemos utilizar los usuarios indicados en la sección anterior.
 http://localhost:8080/swagger-ui.html
 
 ### Postman
-`Veronica` también pone a disposición de los usuarios una colección de llamadas y ejemplos que se encuentra en la ruta **/src/postman/Verónica API Reference.postman_collection.json**.
+`Prueba` Puedes crear con el siguiente json
+
+`Orden`
+`  {
+ 	"idOrden":3,
+  "examens": [
+    {
+      "idExamen": 1
+    },
+        {
+      "idExamen": 2
+    }
+  ],
+  "fechaEmision": "2017-05-14",
+  "fechaEntrega": "2017-05-14",
+ 
+  "medico": {
+    
+    "cedulaMedico": "0106079784" 
+    },
+  "paciente": {
+    "cedula": "0106079783" 
+  }
+} `
 
 ## Bitácora
 
