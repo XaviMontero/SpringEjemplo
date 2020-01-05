@@ -28,8 +28,9 @@ http://localhost:8080/swagger-ui.html
 `Prueba` Puedes crear con el siguiente json
 
 `Orden`
-`  {
- 	"idOrden":3,
+```bash 
+{
+ "idOrden":3,
   "examens": [
     {
       "idExamen": 1
@@ -48,8 +49,8 @@ http://localhost:8080/swagger-ui.html
   "paciente": {
     "cedula": "0106079783" 
   }
-} `
-
+} 
+```
 ## Bitácora
 
 - V1: 2020-04-01, Primera versión.
