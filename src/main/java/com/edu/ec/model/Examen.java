@@ -44,5 +44,9 @@ public class Examen {
 	public void setCosto(Double costo) {
 		this.costo = costo;
 	}
-
+   @Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			return nombre;
+		}
 }
